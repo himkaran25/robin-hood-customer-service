@@ -2,146 +2,204 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robinhood Support Helpline</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How to Contact Robinhood Support</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #0f172a;
+      background: #f4f6f8;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00c389, #007a63);
       color: white;
+      padding: 1.5rem 2rem;
     }
-    .btn-green {
-      background-color: #22c55e;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 1.8rem;
+    }
+
+    nav a {
       color: white;
-      font-weight: 600;
-      border: none;
-      padding: 0.6rem 1.2rem;
-      border-radius: 30px;
-    }
-    .btn-green:hover {
-      background-color: #16a34a;
-    }
-    .section {
-      padding: 60px 20px;
-    }
-    .card {
-      background-color: #1e293b;
-      border: none;
-      color: white;
-    }
-    footer {
-      background-color: #0f172a;
-      padding: 40px 20px;
-      font-size: 0.85rem;
-      border-top: 1px solid #334155;
-    }
-    a {
-      color: #22c55e;
+      margin-left: 1.5rem;
       text-decoration: none;
+      font-weight: 600;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #e6f4f1;
     }
-    .navbar {
-      background-color: #0f172a;
-      border-bottom: 1px solid #1e293b;
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #007a63;
     }
-    .navbar-brand img {
-      height: 24px;
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    article {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    article h3 {
+      color: #007a63;
+      margin-top: 1.5rem;
+    }
+
+    article ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    article ul li {
+      margin-bottom: 0.6rem;
+    }
+
+    .cta-box {
+      background: #f0faf8;
+      padding: 1.5rem;
+      border-left: 5px solid #00c389;
+      margin: 2rem 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #007a63;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    .scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #00c389;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <a href="https://ibb.co/rGdjw2TJ"><img src="https://i.ibb.co/6RXMW0V5/Logo-Robinhood.png " height="50px" alt="Logo-Robinhood" border="0"></a>
-      </a>
-      <div class="ms-auto d-flex gap-3">
-        <a href="#" class="text-white">Help Center</a>
-        <a href="#" class="text-white">Chat with Robinhood Support</a>
-      </div>
+
+<header>
+  <nav>
+    <h1>Robinhood Help Guide</h1>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Support</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
     </div>
   </nav>
+</header>
 
-  <!-- Hero Section -->
-  <div class="container text-center section">
-    <h1 class="fw-bold">Robinhood Support Helpline</h1>
-    <p class="mb-4">24/7 Customer Support for Your Financial Journey</p>
-    <a href="tel:+18888029666" class="btn btn-green">Call Now</a>
-  </div>
+<section class="hero">
+  <h2>How to Contact Robinhood Support</h2>
+  <p>Struggling with your Robinhood account? Here's your complete guide to getting in touch with Robinhood support quickly and effectively.</p>
+</section>
 
-  <!-- Services Section -->
-  <div class="container text-center section">
-    <h4 class="fw-bold">Get Help with Robinhood Services</h4>
-    <p>Whether you're trading stocks, crypto, or options—or just exploring Robinhood—our dedicated support team is available 24/7 to answer your questions and guide you toward confident financial decisions.</p>
-    <p>New to Robinhood? Visit our Help Center for tutorials, account setup guides, and FAQs.</p>
-    <a href="tel:+18888029666" class="btn btn-green mt-3">Call Now</a>
-  </div>
+<main>
+  <article>
+    <h3>1. In-App Support (Best Option)</h3>
+    <p>The fastest way to reach Robinhood support is through the app:</p>
+    <ul>
+      <li>Open the Robinhood app.</li>
+      <li>Tap the account icon (bottom right corner).</li>
+      <li>Select <strong>Help</strong> > <strong>Contact Us</strong>.</li>
+      <li>Describe your issue and request a callback or email.</li>
+    </ul>
 
-  <!-- Invest with Confidence -->
-  <div class="container section">
-    <h4 class="text-center fw-bold mb-4">Invest with Confidence</h4>
-    <div class="row g-4">
-      <div class="col-md-6">
-        <div class="card p-4">
-          <h6 class="fw-bold">Secure, Seamless Trading</h6>
-          <p>Robinhood protects your investments with advanced security tools and strict privacy controls. Trade commission-free and manage your portfolio with confidence—anytime, anywhere.</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card p-4">
-          <h6 class="fw-bold">Fraud Prevention & Account Security</h6>
-          <ul>
-            <li>Real-time account monitoring</li>
-            <li>Multi-factor authentication (2FA)</li>
-            <li>Device and login verification</li>
-            <li>Secure identity verification</li>
-          </ul>
-        </div>
-      </div>
+    <h3>2. Use the Web Platform</h3>
+    <p>If you're on a desktop, you can also contact Robinhood via the website:</p>
+    <ul>
+      <li>Visit: <a href="https://robinhood.com/contact" target="_blank">robinhood.com/contact</a></li>
+      <li>Log into your account.</li>
+      <li>Use the chatbot or request direct support.</li>
+    </ul>
+
+    <h3>3. Request a Phone Call</h3>
+    <p>Robinhood offers a callback option:</p>
+    <div class="cta-box">
+      <strong>Note:</strong> Robinhood does not have a direct phone line you can call. You must request a callback through the app or web interface.
     </div>
-  </div>
 
-  <!-- Customer Support -->
-  <div class="container text-center section">
-    <h4 class="fw-bold">24/7 Customer Support</h4>
-    <p>From app troubleshooting to explaining trading restrictions, our support team is here to help. Contact us via the Help Center or in-app messaging for fast, reliable answers.</p>
-    <a href="tel:+18888029666" class="btn btn-green mt-3">Call Now</a>
-  </div>
+    <h3>4. Email Support</h3>
+    <p>You can send an email from the app or desktop platform. Replies usually take 24-48 hours.</p>
 
-  <!-- Security -->
-  <div class="container text-center section">
-    <h4 class="fw-bold">Industry-Leading Security</h4>
-    <p>Robinhood uses cutting-edge TLS encryption and backend security protocols to safeguard your personal and financial data.</p>
-    <p>We partner with trusted custodians and clearing firms to ensure your assets are protected.</p>
-    <h6 class="fw-bold mt-4">Why Robinhood Is Secure</h6>
-    <p>As a leader in commission-free trading, Robinhood prioritizes your security and data privacy. Our platform is built with robust infrastructure to stay ahead of cyber threats.</p>
-    <a href="tel:+18888029666" class="btn btn-green mt-3">Call Now</a>
-  </div>
+    <h3>5. Social Media</h3>
+    <p>Try reaching out via their official handles:</p>
+    <ul>
+      <li><i class="fab fa-twitter"></i> Twitter: <a href="https://twitter.com/RobinhoodApp" target="_blank">@RobinhoodApp</a></li>
+      <li><i class="fab fa-facebook"></i> Facebook: <a href="https://facebook.com/robinhood" target="_blank">Robinhood</a></li>
+    </ul>
 
-  <!-- Footer -->
-  <footer class="container-fluid">
-    <div class="row">
-      <div class="col-md-6">
-        <h6>Disclaimer</h6>
-        <p>Shop New AVS is an independent digital retailer specializing in financial software, tools, and investment education materials. We are not affiliated with Robinhood Markets, Inc., nor do we claim any official endorsement. All third-party products sold on this site are genuine and are sourced from authorized distributors.</p>
-        <p>We fully comply with FTC guidelines and ensure all transactions are conducted securely. For more information, refer to our <a href="#">Buying and Refund Policies</a>.</p>
-      </div>
-      <div class="col-md-6">
-        <h6>Important Information</h6>
-        <p>Review our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> before using our services.</p>
-        <p>Contact Us: Visit our <a href="#">Help Center</a> or reach out to our support team.</p>
-      </div>
-    </div>
-    <div class="text-center mt-4">
-      <p>© 2025 Robinhood. All rights reserved.</p>
-    </div>
-  </footer>
+    <h3>6. FAQs and Community</h3>
+    <p>Before reaching out, browse their <a href="https://robinhood.com/help" target="_blank">Help Center</a>. Many issues are covered in detail.</p>
+  </article>
+</main>
+
+<footer>
+  <p>&copy; 2025 Robinhood Support Blog. All rights reserved.</p>
+</footer>
+
+<div class="scroll-top" onclick="scrollToTop()">
+  <i class="fas fa-arrow-up"></i>
+</div>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
 </body>
 </html>
-
-
